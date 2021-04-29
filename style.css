@@ -1,0 +1,113 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(pic4.jpeg);
+    height: 100vh;
+    background-size:cover ;
+    background-position: center;
+    
+}
+.main-nav{
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+}
+.main-nav li{
+    display: inline-block;
+}
+.main-nav li a{
+    color: darkgrey;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+}
+.main-nav li.active a{
+    border: 1px solid white;
+        
+}
+.main-nav li a:hover{
+    border: 1px solid white;
+}
+h1{
+    color:burlywood;
+    float: left;
+    padding: 4px 2px;
+    font-family: "serif" monospace;
+    font-size: 50px;
+}
+title{
+    
+    
+}
+body{
+     background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(pic3.jpg);
+    height: 100vh;
+    background-size:cover ;
+    background-position: center;
+}
+}
+
+.login-page{
+    width: 1000px;
+    padding: 60% 0 0;
+    margin: auto;
+}
+
+.form{
+    z-index: 1;
+    background: #C0C0C0;
+    max-width: 400px;
+    margin: 0 auto 777x;
+    padding: 45px;
+    text-align:left
+}
+
+.form input{
+    font-family: "Roboto", monospace;
+    outline: 1;
+    background: #FFE4C4;
+    width: 100%;
+    border:0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.form button{
+    font-family: "Roboto", monospace;
+    text-transform: capitalize;
+    outline: 0;
+    background: #A52A2A;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.form button:hover, .form button:active{
+    background: #A0522D;
+        
+}
+
+.form .message{
+    margin: 15px 0 0;
+    color: darkmagenta;
+    font-size: 16px;
+}
+
+.form .message a{
+    color: darkblue;
+    text-decoration: underline;
+    
+}
+
+.form .register-form{
+    display: none;
+}
